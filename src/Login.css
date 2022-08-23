@@ -1,0 +1,42 @@
+.login > div > img{
+    object-fit: contain;
+    height: 150px;
+}
+.login{
+    background-color: white;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.login > button{
+    width: 270px;
+    background-color: rgb(8, 8, 76);
+    color: aliceblue;
+    font-weight: 800;
+}
+.login > div{
+    display: flex;
+    flex-direction: column;
+}
+.button:hover{
+    background-color: rgb(246, 245, 247);
+    color: rgb(17, 17, 65);
+}
+.button{
+    width: 150px;
+    font-weight: 800;
+    border-radius: 15px;
+    background-color: rgb(13, 13, 99);
+}
+.app2{
+    display: flex;
+}
+.last{
+    padding-left: 160px;
+}
+.app1 > h3{
+    padding-left: 120px;
+}
+.app3 > h3{
+    padding-left: 140px;
+}
